@@ -28,7 +28,7 @@ const Archive3D = (props) => {
         const ref = useRef();      
         const pos = new Vector3(X, Z, -Y);
       
-        const rot = new Euler(
+        const rot4 = new Euler(
           -MathUtils.degToRad(rotX) + Math.PI / 2,
           MathUtils.degToRad(rotZ),
           MathUtils.degToRad(rotY),
@@ -36,7 +36,7 @@ const Archive3D = (props) => {
         );
       
         // OK approx
-        const rot3 = new Euler(
+        const rot = new Euler(
           Math.PI / 2 - MathUtils.degToRad(rotX),
           MathUtils.degToRad(rotZ),
           MathUtils.degToRad(-rotY),

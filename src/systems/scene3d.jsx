@@ -6,7 +6,7 @@ import { Orco10K } from "../components/3d/orco";
 import {Archive3D} from "../components/3d/archive3d"
 import { Lights } from "./lights";
 
-const archives = ["Orco-01-0002", "Orco-04-0015"];
+const archives = ["Orco-01-0002", "Orco-04-0015", "Orco-01-0023"];
 
 export default function Scene3D() {
   return (
