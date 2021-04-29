@@ -13,7 +13,7 @@ export default function Scene3D() {
       id="scene-container"
       className="scene-container"
       camera={{
-        position: [0, 25, 0],
+        position: [0, 25, 25],
         fov: [50]
       }}
     >
