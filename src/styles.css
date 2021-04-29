@@ -1,0 +1,99 @@
+:root {
+  --phase-0-color: rgb(128, 168, 192, 1);
+  --phase-1-color: #4b93af;
+  --phase-2-color: #72bc8b;
+  --phase-3-color: rgb(236, 112, 58);
+  --phase-4-color: rgb(148, 105, 165);
+  --phase-5-color: rgb(153, 33, 88);
+  --phase-6-color: rgba(92, 91, 90, 1);
+  --opacite-neutre: 0.65;
+  --jaune: rgb(255, 201, 51);
+  --rdc: #a5c5f8;
+  --rdj: #ffb9b1;
+  --crypto: #fff280;
+  --color-0: rgba(25, 40, 44, 1);
+  --color-1: rgba(122, 129, 132, 1);
+  --color-2: rgba(57, 71, 75, 1);
+  --color-3: rgba(45, 109, 130, 1);
+  --color-4: rgba(16, 143, 185, 1);
+  --bg-color: var(--color-0);
+  --bg-color-2: rgb(60, 80, 85);
+  --bg-light-color: rgba(48, 61, 65, 1);
+  --bg-dark-color: rgba(24, 31, 33, 1);
+  --bg-hover-color: var(--color-2);
+  --font-color: #9aa1a4;
+  --font-color-2: #ddd;
+  --font-color: #cccccc;
+  --border-color: black;
+  --measurement-detail-node-bg-light: var(--color-1);
+  --measurement-detail-node-bg-dark: var(--color-2);
+  --measurement-detail-area-bg-color: #eee;
+
+  --bleu-turquoise: #1bb7bf;
+  --bleu-sombre: #3f51b5;
+}
+
+/* FONTS */
+
+/* MAIN */
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "ambleregular";
+  color: white;
+}
+
+body {
+  /* background: linear-gradient(#808080 0%,#e6e6e6 25%, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7), #e6e6e6 75%, #808080 100%); */
+  /* background: linear-gradient(#0c1417 0%,#141d22 25%, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7), #141d22 75%, #0c1417 100%);       */
+  background: rgb(30, 46, 52);
+  background: radial-gradient(
+    circle,
+    rgba(30, 46, 52, 1) 0%,
+    rgba(6, 11, 14, 1) 100%
+  );
+}
+/* body:hover {
+  cursor: crosshair;
+} */
+
+#scene-container,
+.app {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  position: absolute;
+  bottom: 10px;
+  overflow: hidden;
+  background: gray;
+  color: white;
+  margin: 20px;
+  border: 0;
+  border-radius: 2px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+button:hover {
+  background: dimgray;
+}
+:focus {
+  outline: none;
+}
+
+.indication {
+  color: white;
+  position: absolute;
+  bottom: 35px;
+  left: 120px;
+  overflow: hidden;
+  text-align: center;
+}
