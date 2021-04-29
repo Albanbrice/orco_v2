@@ -1,0 +1,294 @@
+{
+    "asset" : {
+        "copyright" : "A.-B. PIMPAUD / ARCHEO3D.NET",
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "orco_10K"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "orco_10K_u1_v1",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "orco_10K_u2_v1",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "orco_10K_u1_v2",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "orco_10K",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "orco_10K_u1_v1",
+            "uri" : "orco_10K_u1_v1.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "orco_10K_u2_v1",
+            "uri" : "orco_10K_u2_v1.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "orco_10K_u1_v2",
+            "uri" : "orco_10K_u1_v2.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 6706,
+            "max" : [
+                10.121344566345215,
+                3.785003662109375,
+                6.782531261444092
+            ],
+            "min" : [
+                -9.753914833068848,
+                -0.04114401340484619,
+                -6.601001739501953
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 6706,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 6706,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 6708,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 8973,
+            "max" : [
+                11.273354530334473,
+                3.785003662109375,
+                6.120933532714844
+            ],
+            "min" : [
+                -9.753914833068848,
+                -0.04114401340484619,
+                -6.468064308166504
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 8973,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 8973,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 8973,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 12519,
+            "max" : [
+                11.40576457977295,
+                3.785003662109375,
+                4.827315330505371
+            ],
+            "min" : [
+                -9.689338684082031,
+                -0.04114401340484619,
+                -6.601001739501953
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 12519,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 12519,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 12519,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 80472,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 80472,
+            "byteOffset" : 80472
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 53648,
+            "byteOffset" : 160944
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13416,
+            "byteOffset" : 214592
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 107676,
+            "byteOffset" : 228008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 107676,
+            "byteOffset" : 335684
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 71784,
+            "byteOffset" : 443360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17946,
+            "byteOffset" : 515144
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 150228,
+            "byteOffset" : 533092
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 150228,
+            "byteOffset" : 683320
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 100152,
+            "byteOffset" : 833548
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25038,
+            "byteOffset" : 933700
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 958740,
+            "uri" : "orco_10K.bin"
+        }
+    ]
+}
