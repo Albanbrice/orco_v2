@@ -67,8 +67,8 @@ const Archive3D = (props) => {
               <meshStandardMaterial
                 attach="material"
                 color="white"
-                transparent={false}
-                opacity={1}
+                transparent={true}
+                opacity={0.75}
                 map={archImg}
               />
             </mesh>
