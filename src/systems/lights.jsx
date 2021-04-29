@@ -5,7 +5,7 @@ function Lights() {
   const PointLightRef = useRef();
   return (
     <group>
-      <ambientLight ref={ambientLightRef} color="white" intensity={0.1} />
+      <ambientLight ref={ambientLightRef} color="white" intensity={0.5} />
       <pointLight
         ref={PointLightRef}
         position={[20, 20, 20]}
